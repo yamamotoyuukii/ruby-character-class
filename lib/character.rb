@@ -1,6 +1,5 @@
 # 勇者 (Hero) のふるまいを表すクラス
-class Hero
-
+class Character
   attr_reader :name, :hp
 
   def initialize(name, hp)
